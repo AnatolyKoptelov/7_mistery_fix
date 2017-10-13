@@ -5,7 +5,7 @@ This function is intended to find the roots of the quadratic equation.
 # How to use it
 
 On the input takes the coefficients of the quadratic equation (a, b, c) 
-Returns a list of real roots or None for complex roots
+Returns a tuple of real roots or None for complex roots
 
 Usage example:
 ``````````````````````````````````````````
