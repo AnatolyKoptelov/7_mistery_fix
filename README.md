@@ -1,12 +1,14 @@
 # Решатель квадратных уравнений
 
-This function is intended to find the roots of the quadratic equation. On the input takes the coefficients of the quadratic equation (a, b, c) Returns a list of real roots or None for complex roots
+This function is intended to find the roots of the quadratic equation. 
 
 # Как использовать
 
-On the input takes the coefficients of the quadratic equation (a, b, c) Returns a list of real roots or None for complex roots
+On the input takes the coefficients of the quadratic equation (a, b, c) 
+Returns a list of real roots or None for complex roots
 
-Usage:
+Usage example:
+``````````````````````````````````````````
 from quadratic_equation import get_roots
 
 print("a*x^2 + b*x + c = 0")
@@ -15,7 +17,7 @@ b =input ("Input b:   ")
 c =input ("Input c:   ")
 
 print(get_roots(float(a),float(b),float(c)))
-
+````````````````````````````````````````````
 # Как запустить
 
 Скрипт требует для своей работы установленного интерпретатора Python версии 3.5 или 2.7
