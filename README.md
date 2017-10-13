@@ -1,8 +1,8 @@
-# Решатель квадратных уравнений
+# Solver of quadratic equations
 
 This function is intended to find the roots of the quadratic equation. 
 
-# Как использовать
+# How to use it
 
 On the input takes the coefficients of the quadratic equation (a, b, c) 
 Returns a list of real roots or None for complex roots
@@ -18,18 +18,18 @@ c =input ("Input c:   ")
 
 print(get_roots(float(a),float(b),float(c)))
 ````````````````````````````````````````````
-# Как запустить
+# How to run
 
-Скрипт требует для своей работы установленного интерпретатора Python версии 3.5 или 2.7
+The script requires the installed Python interpreter version 3.5 or 2.7 for its work
 
-Запуск на Linux:
+Running on Linux:
 
 ```bash
-python tests.py # может понадобиться вызов python3 вместо python, зависит от настроек операционной системы
+python tests.py # or python3, python2 instead python, it depends of your OS preferenses
 ```
 
-Запуск на Windows происходит аналогично.
+Running on Windows is simular
 
-# Цели проекта
+# Project Objectives
 
-Код создан в учебных целях. В рамках учебного курса по веб-разработке ― [DEVMAN.org](https://devman.org)
+The code was created for educational purposes. In the framework of the training course on web development - ― [DEVMAN.org](https://devman.org)
